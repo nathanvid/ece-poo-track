@@ -1,0 +1,362 @@
+{
+  "name": "Deauville Festival du Rire 2027",
+  "first_day": "2027-06-10",
+  "last_day": "2027-06-13",
+  "venues": [
+    {
+      "name": "Grand Casino",
+      "capacity": 650,
+      "address": "Seafront, main hall"
+    },
+    {
+      "name": "Théâtre des Planches",
+      "capacity": 320,
+      "address": "Town centre"
+    },
+    {
+      "name": "Le Kiosque",
+      "capacity": 120,
+      "address": "Beach promenade"
+    },
+    {
+      "name": "La Cabane",
+      "capacity": 40,
+      "address": "Beach, next to the lifeguard post"
+    }
+  ],
+  "artists": [
+    {
+      "name": "Hugo Lemaire",
+      "bio": "Musical comedy with a ukulele and too many chords.",
+      "photo_url": ""
+    },
+    {
+      "name": "Inès Moreau",
+      "bio": "Improviser and teacher. Nothing is ever written in advance.",
+      "photo_url": ""
+    },
+    {
+      "name": "Jeanne Aubry",
+      "bio": "Writer for radio shows, now on stage with her own jokes.",
+      "photo_url": ""
+    },
+    {
+      "name": "Karim Benali",
+      "bio": "Observational comedy about offices, trains and neighbours.",
+      "photo_url": ""
+    },
+    {
+      "name": "Léa Fontaine",
+      "bio": "Absurd tales, invented animals and very long pauses.",
+      "photo_url": ""
+    },
+    {
+      "name": "Max Pellerin",
+      "bio": "Fast, loud and proud of it. Twelve years of open mics.",
+      "photo_url": ""
+    },
+    {
+      "name": "Maya Choukri",
+      "bio": "Newcomer of the year at the Paris comedy clubs.",
+      "photo_url": ""
+    },
+    {
+      "name": "Nora Lebrun",
+      "bio": "Deadpan stories about family dinners that went wrong.",
+      "photo_url": ""
+    },
+    {
+      "name": "Paul Kerbrat",
+      "bio": "Breton host, master of ceremonies of the festival.",
+      "photo_url": ""
+    },
+    {
+      "name": "Sacha Diallo",
+      "bio": "Growing up between Dakar and Rouen, told with a straight face.",
+      "photo_url": ""
+    },
+    {
+      "name": "Tom Vasseur",
+      "bio": "Former teacher who turned his students' excuses into a show.",
+      "photo_url": ""
+    },
+    {
+      "name": "Élodie Marchal",
+      "bio": "Stand-up about sport, failure and trying again.",
+      "photo_url": ""
+    }
+  ],
+  "performances": [
+    {
+      "kind": "lineup",
+      "title": "Opening Gala",
+      "venue": "grand-casino",
+      "start": "2027-06-10T20:30",
+      "duration_minutes": 120,
+      "description": "Four headliners open the first edition.",
+      "host": "paul-kerbrat",
+      "acts": [
+        "nora-lebrun",
+        "max-pellerin",
+        "lea-fontaine",
+        "karim-benali"
+      ]
+    },
+    {
+      "kind": "solo",
+      "title": "Family Business",
+      "venue": "theatre-des-planches",
+      "start": "2027-06-10T21:00",
+      "duration_minutes": 75,
+      "description": "",
+      "artist": "sacha-diallo",
+      "min_age": 0
+    },
+    {
+      "kind": "lineup",
+      "title": "Open Mic Night",
+      "venue": "le-kiosque",
+      "start": "2027-06-10T22:30",
+      "duration_minutes": 90,
+      "description": "",
+      "host": "tom-vasseur",
+      "acts": [
+        "hugo-lemaire",
+        "elodie-marchal",
+        "maya-choukri"
+      ]
+    },
+    {
+      "kind": "workshop",
+      "title": "Improv for Beginners",
+      "venue": "la-cabane",
+      "start": "2027-06-11T10:30",
+      "duration_minutes": 120,
+      "description": "No experience needed. Comfortable shoes recommended.",
+      "teacher": "ines-moreau",
+      "max_participants": 12,
+      "participants": [
+        "Camille R.",
+        "Yanis B.",
+        "Lou M."
+      ]
+    },
+    {
+      "kind": "workshop",
+      "title": "Writing a Punchline",
+      "venue": "le-kiosque",
+      "start": "2027-06-11T15:00",
+      "duration_minutes": 90,
+      "description": "",
+      "teacher": "jeanne-aubry",
+      "max_participants": 20,
+      "participants": [
+        "Adam K."
+      ]
+    },
+    {
+      "kind": "solo",
+      "title": "Nothing Serious",
+      "venue": "theatre-des-planches",
+      "start": "2027-06-11T18:00",
+      "duration_minutes": 75,
+      "description": "",
+      "artist": "nora-lebrun",
+      "min_age": 0
+    },
+    {
+      "kind": "solo",
+      "title": "Tall Tales",
+      "venue": "grand-casino",
+      "start": "2027-06-11T20:30",
+      "duration_minutes": 80,
+      "description": "",
+      "artist": "lea-fontaine",
+      "min_age": 0
+    },
+    {
+      "kind": "solo",
+      "title": "Straight Face",
+      "venue": "theatre-des-planches",
+      "start": "2027-06-11T21:30",
+      "duration_minutes": 70,
+      "description": "",
+      "artist": "karim-benali",
+      "min_age": 16
+    },
+    {
+      "kind": "solo",
+      "title": "Late Laughs",
+      "venue": "le-kiosque",
+      "start": "2027-06-11T23:30",
+      "duration_minutes": 60,
+      "description": "",
+      "artist": "max-pellerin",
+      "min_age": 18
+    },
+    {
+      "kind": "lineup",
+      "title": "After Hours",
+      "venue": "le-kiosque",
+      "start": "2027-06-12T01:00",
+      "duration_minutes": 60,
+      "description": "The last show of Friday night, after midnight.",
+      "host": "tom-vasseur",
+      "acts": [
+        "hugo-lemaire",
+        "maya-choukri"
+      ]
+    },
+    {
+      "kind": "workshop",
+      "title": "Stand-up Lab",
+      "venue": "la-cabane",
+      "start": "2027-06-12T10:30",
+      "duration_minutes": 120,
+      "description": "",
+      "teacher": "paul-kerbrat",
+      "max_participants": 10,
+      "participants": [
+        "Chloé D.",
+        "Nathan P.",
+        "Inès T.",
+        "Hugo S."
+      ]
+    },
+    {
+      "kind": "solo",
+      "title": "Brunch & Punchlines",
+      "venue": "theatre-des-planches",
+      "start": "2027-06-12T11:00",
+      "duration_minutes": 60,
+      "description": "",
+      "artist": "karim-benali",
+      "min_age": 0
+    },
+    {
+      "kind": "lineup",
+      "title": "New Faces",
+      "venue": "le-kiosque",
+      "start": "2027-06-12T15:00",
+      "duration_minutes": 90,
+      "description": "",
+      "host": "jeanne-aubry",
+      "acts": [
+        "elodie-marchal",
+        "hugo-lemaire",
+        "maya-choukri"
+      ]
+    },
+    {
+      "kind": "solo",
+      "title": "Family Business",
+      "venue": "grand-casino",
+      "start": "2027-06-12T17:00",
+      "duration_minutes": 75,
+      "description": "",
+      "artist": "sacha-diallo",
+      "min_age": 0
+    },
+    {
+      "kind": "solo",
+      "title": "Half Past Funny",
+      "venue": "theatre-des-planches",
+      "start": "2027-06-12T18:30",
+      "duration_minutes": 70,
+      "description": "",
+      "artist": "ines-moreau",
+      "min_age": 0
+    },
+    {
+      "kind": "solo",
+      "title": "Nothing Serious",
+      "venue": "grand-casino",
+      "start": "2027-06-12T20:30",
+      "duration_minutes": 75,
+      "description": "",
+      "artist": "nora-lebrun",
+      "min_age": 0
+    },
+    {
+      "kind": "lineup",
+      "title": "Deauville Comedy Club",
+      "venue": "theatre-des-planches",
+      "start": "2027-06-12T21:00",
+      "duration_minutes": 100,
+      "description": "",
+      "host": "max-pellerin",
+      "acts": [
+        "tom-vasseur",
+        "lea-fontaine",
+        "elodie-marchal"
+      ]
+    },
+    {
+      "kind": "solo",
+      "title": "Midnight Snack",
+      "venue": "le-kiosque",
+      "start": "2027-06-12T23:30",
+      "duration_minutes": 60,
+      "description": "",
+      "artist": "hugo-lemaire",
+      "min_age": 16
+    },
+    {
+      "kind": "workshop",
+      "title": "Improv for Beginners",
+      "venue": "la-cabane",
+      "start": "2027-06-13T10:30",
+      "duration_minutes": 120,
+      "description": "",
+      "teacher": "ines-moreau",
+      "max_participants": 12,
+      "participants": []
+    },
+    {
+      "kind": "solo",
+      "title": "Brunch & Punchlines",
+      "venue": "theatre-des-planches",
+      "start": "2027-06-13T11:00",
+      "duration_minutes": 60,
+      "description": "",
+      "artist": "karim-benali",
+      "min_age": 0
+    },
+    {
+      "kind": "solo",
+      "title": "First Time Here",
+      "venue": "le-kiosque",
+      "start": "2027-06-13T15:00",
+      "duration_minutes": 60,
+      "description": "",
+      "artist": "maya-choukri",
+      "min_age": 0
+    },
+    {
+      "kind": "solo",
+      "title": "Tall Tales",
+      "venue": "theatre-des-planches",
+      "start": "2027-06-13T17:00",
+      "duration_minutes": 80,
+      "description": "",
+      "artist": "lea-fontaine",
+      "min_age": 0
+    },
+    {
+      "kind": "lineup",
+      "title": "Closing Gala",
+      "venue": "grand-casino",
+      "start": "2027-06-13T20:30",
+      "duration_minutes": 130,
+      "description": "Everybody back on stage for the last night.",
+      "host": "paul-kerbrat",
+      "acts": [
+        "nora-lebrun",
+        "sacha-diallo",
+        "ines-moreau",
+        "max-pellerin",
+        "jeanne-aubry"
+      ]
+    }
+  ]
+}
