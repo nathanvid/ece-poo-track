@@ -1,0 +1,10 @@
+{
+  "name": "Road trip",
+  "owner": "Camille",
+  "songs": [
+    { "title": "Highway Song", "artist": "The Wheels", "seconds": 214 },
+    { "title": "Blue Motel", "artist": "Nina Sol", "seconds": 187 },
+    { "title": "Exit 42", "artist": "The Wheels", "seconds": 251 },
+    { "title": "Sunset Diner", "artist": "Paco Ruiz", "seconds": 199 }
+  ]
+}

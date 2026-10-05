@@ -1,0 +1,40 @@
+{
+  "name": "Town library",
+  "books": [
+    {
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "sf",
+      "pages": 612,
+      "borrowed_by": "lou"
+    },
+    {
+      "title": "Emma",
+      "author": "Jane Austen",
+      "genre": "novel",
+      "pages": 474,
+      "borrowed_by": ""
+    },
+    {
+      "title": "Foundation",
+      "author": "Isaac Asimov",
+      "genre": "sf",
+      "pages": 255,
+      "borrowed_by": ""
+    },
+    {
+      "title": "Persuasion",
+      "author": "Jane Austen",
+      "genre": "novel",
+      "pages": 249,
+      "borrowed_by": "yanis"
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J. R. R. Tolkien",
+      "genre": "fantasy",
+      "pages": 310,
+      "borrowed_by": "lou"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+[project]
+name = "deauville-track"
+version = "0.1.0"
+description = "Object-oriented programming in Python - the project track (sheets and side examples)"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn>=0.30",
+]
+
+[dependency-groups]
+dev = [
+    "httpx2>=2.13",
+    "pytest>=8",
+    "ruff>=0.6",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "N", "UP", "B"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests", "B3/side", "B5/side"]
